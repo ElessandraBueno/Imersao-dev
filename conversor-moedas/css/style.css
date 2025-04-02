@@ -1,0 +1,61 @@
+/*Global style*/
+body{
+    background-color: #1a0b3c;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+}
+
+/*Logo*/
+.logo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 250px;
+    width: auto;
+}
+
+/*Container background*/
+.container{
+    background: url(../images/Designer7.jpeg) no-repeat center center/cover;
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Content com texto e botão*/
+.content{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin: 2px;
+    border: 1px solid #1a0b3c;
+}
+.content h2{
+    margin-bottom: 20px;
+}
+
+/*Button styles*/
+button{
+    background-color: #1a0b3c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #b96104;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 10px;
+}
